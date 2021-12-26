@@ -10,7 +10,7 @@
                         {
                             "controller": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee87",
                             "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee87#controller",
-                            "publicKeyBase58": "aeZzW6kdhnsUydnWZnxqFMvUvjDJYr2rwv5D4NeqozkmnGFf3ha2cwuog",
+                            "publicKeyBase58": "3LKdwXP8dqZeYanNAo7s9QQwjp6V6dsGqSrerqMLYQU2",
                             "type": "Ed25519VerificationKey2018"
                         }
                     ]
