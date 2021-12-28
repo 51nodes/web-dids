@@ -14,6 +14,9 @@
         "authentication": [
             "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#controller-1"
         ],
+        "keyAgreement": [
+            "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#controller-1"
+        ],
         "service": [{
             "id": "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#did-communication",
             "type": "DIDCommMessaging",
