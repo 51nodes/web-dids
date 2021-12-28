@@ -6,12 +6,12 @@
         "verificationMethod": [
             {
                 "controller": "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23",
-                "id": "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#key-1",
+                "id": "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#controller-1",
                 "publicKeyBase58": "6qh2YXTEZ2gV1APcJxrj18QL2FiwUJwYSZHH7MZGK46d",
                 "type": "Ed25519VerificationKey2018"
             }
         ],
         "authentication": [
-            "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#key-1"
+            "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#controller-1"
         ]
     }
