@@ -15,7 +15,7 @@
             "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#controller-1"
         ],
         "service": [{
-            "id": "#did-communication",
+            "id": "did:web:51nodes.github.io:web-dids:test:41498661-88fd-447f-9d67-10004e2deb23#did-communication",
             "type": "did-communication",
             "serviceEndpoint": "https://localhost:8081"
         }]
