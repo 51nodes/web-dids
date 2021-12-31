@@ -23,7 +23,6 @@
         "service": [{
             "id": "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003#did-communication",
             "type": "DIDCommMessaging",
-            "serviceEndpoint": "https://carl.router.aries.example.com:10091",
-            "routingKeys": ["did:web:51nodes.github.io:web-dids:test:673e3928-6825-11ec-90d6-0242ac120003#comm-1"]
+            "serviceEndpoint": "didcomm:transport/queue"
         }]
     }
