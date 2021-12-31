@@ -18,7 +18,7 @@
             "id": "did:web:51nodes.github.io:web-dids:test:673e3928-6825-11ec-90d6-0242ac120003#comm-1",
             "type": "X25519KeyAgreementKey2019",
             "controller": "did:web:51nodes.github.io:web-dids:test:673e3928-6825-11ec-90d6-0242ac120003",
-            "publicKeyBase58": "Gw8toSFeMpeJnhWTXqSNVBzjmynbBRMkLsoPomzs3Y8v"
+            "publicKeyBase58": "HDcBpehBXNcwtxwBYvj9H1RhydWTuqRpbKveSDPxrVcH"
         }],
         "service": [{
             "id": "did:web:51nodes.github.io:web-dids:test:673e3928-6825-11ec-90d6-0242ac120003#did-communication",
