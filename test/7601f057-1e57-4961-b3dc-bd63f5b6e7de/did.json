@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "https://w3id.org/did/v1"
+    ],
+    "id": "did:web:51nodes.github.io:web-dids:test:7601f057-1e57-4961-b3dc-bd63f5b6e7de",
+    "verificationMethod": [
+        {
+            "controller": "did:web:51nodes.github.io:web-dids:test:7601f057-1e57-4961-b3dc-bd63f5b6e7de",
+            "id": "did:web:51nodes.github.io:web-dids:test:7601f057-1e57-4961-b3dc-bd63f5b6e7de#controller-1",
+            "publicKeyBase58": "6qh2YXTEZ2gV1APcJxrj18QL2FiwUJwYSZHH7MZGK46d",
+            "type": "Ed25519VerificationKey2018"
+        }
+    ],
+    "authentication": [
+        "did:web:51nodes.github.io:web-dids:test:7601f057-1e57-4961-b3dc-bd63f5b6e7de#controller-1"
+    ],
+    "keyAgreement": [{
+        "id": "did:web:51nodes.github.io:web-dids:test:7601f057-1e57-4961-b3dc-bd63f5b6e7de#comm-1",
+        "type": "X25519KeyAgreementKey2019",
+        "controller": "did:web:51nodes.github.io:web-dids:test:7601f057-1e57-4961-b3dc-bd63f5b6e7de",
+        "publicKeyBase58": "4C91h6Ecw2Bokc1TUywJ28RJnSNnPmV1H1FqyrdVyT2x"
+    }],
+    "service": [{
+        "id": "did:web:51nodes.github.io:web-dids:test:7601f057-1e57-4961-b3dc-bd63f5b6e7de#did-communication",
+        "type": "DIDCommMessaging",
+        "serviceEndpoint": "https://localhost:8082"
+    }]
+}
