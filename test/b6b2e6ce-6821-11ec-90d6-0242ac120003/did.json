@@ -15,15 +15,15 @@
             "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003#controller-1"
         ],
         "keyAgreement": [{
-            "id": "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003#comm-1",
+            "id": "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003#dh-IvxSJebvwq5I8EHTRbx0jPHSd3s0CJM-3UJ0Iwx0",
             "type": "X25519KeyAgreementKey2019",
             "controller": "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003",
-            "publicKeyBase58": "ActAFAsHoUD2wkxq7Xf3LEWc9YfEB8xTKjaBf9ws9gGc"
+            "publicKeyBase58": "HKHCA4EurxYkHmRuUB8tyvks4T5KR4LCPJzREaBrZcoP"
         }],
         "service": [{
             "id": "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003#did-communication",
             "type": "DIDCommMessaging",
             "serviceEndpoint": "https://carl.router.aries.example.com:10091",
-            "routingKeys": ["did:web:51nodes.github.io:web-dids:test:673e3928-6825-11ec-90d6-0242ac120003#comm-1"]
+            "routingKeys": ["did:web:51nodes.github.io:web-dids:test:673e3928-6825-11ec-90d6-0242ac120003#-i4kE5-ld8sip_vzvBgcdOS9OoIafioJFXbc05IsxQM"]
         }]
     }
