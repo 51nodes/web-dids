@@ -19,5 +19,12 @@
             "type": "X25519KeyAgreementKey2019",
             "controller": "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003",
             "publicKeyBase58": "HKHCA4EurxYkHmRuUB8tyvks4T5KR4LCPJzREaBrZcoP"
-        }]
+        }],
+        "services": [
+            {
+                "id": "did:web:51nodes.github.io:web-dids:test:b6b2e6ce-6821-11ec-90d6-0242ac120003#did-communication",
+                "type": "DIDCommMessaging",
+                "serviceEndpoint": "didcomm:transport/queue"
+            }
+        ]
     }
