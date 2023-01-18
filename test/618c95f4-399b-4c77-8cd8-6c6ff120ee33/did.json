@@ -1,36 +1,29 @@
 {
-        "@context": [
-            "https://w3id.org/did/v1"
-        ],
-        "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
-        "verificationMethod": [
-            {
-                "controller": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
-                "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1",
-                "type": "Ed25519VerificationKey2019",
-                "publicKeyJwk": {
-                        "alg": "EdDSA",
-                        "crv": "Ed25519",
-                        "kid": "76ae54d869054657bdb160fdf31c5575",
-                        "kty": "OKP",
-                        "use": "sig",
-                        "x": "J9LbY5FT_9tL8WTJcMU3N4dyBlUgVfzTimI6DcvrdVo"
-                      }
-            }
-        ],
-        "authentication": [
-            "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1"
-        ],
-        "keyAgreement": [{
-            "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#comm-1",
-            "type": "X25519KeyAgreementKey2019",
-            "controller": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
-            "publicKeyBase58": "EHEfL3bpr9T4yVChdqBbajfjcFPyCm2CbpLyJKAFRHfX"
-        }],
-        "service": [{
-            "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#did-communication",
-            "type": "DIDCommMessaging",
-            "serviceEndpoint": "https://alice.aries.example.com:8081"
-        }]
+  "assertionMethod": [
+    {
+      "id": "did:web:wallet.walt.id:api:did-registry:76ae54d869054657bdb160fdf31c5575#controller-1"
     }
- 
+  ],
+  "authentication": [
+      "id": "did:web:wallet.walt.id:api:did-registry:76ae54d869054657bdb160fdf31c5575#controller-1"
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:51nodes.github.io:web-dids:develop:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
+  "verificationMethod": [
+    {
+      "controller": "did:web:wallet.walt.id:api:did-registry:76ae54d869054657bdb160fdf31c5575",
+      "id": "did:web:wallet.walt.id:api:did-registry:76ae54d869054657bdb160fdf31c5575#controller-1",
+      "publicKeyJwk": {
+        "alg": "EdDSA",
+        "crv": "Ed25519",
+        "kid": "76ae54d869054657bdb160fdf31c5575",
+        "kty": "OKP",
+        "use": "sig",
+        "x": "J9LbY5FT_9tL8WTJcMU3N4dyBlUgVfzTimI6DcvrdVo"
+      },
+      "type": "Ed25519VerificationKey2019"
+    }
+  ]
+}
