@@ -1,11 +1,9 @@
 { 
   "assertionMethod": [
- 
-      "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1"
- 
+    "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1"
   ],
   "authentication": [
-      "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1"
+    "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1"
   ],
   "@context": [
     "https://www.w3.org/ns/did/v1"
