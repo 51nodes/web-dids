@@ -1,0 +1,28 @@
+{
+        "@context": [
+            "https://w3id.org/did/v1"
+        ],
+        "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
+        "verificationMethod": [
+            {
+                "controller": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
+                "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1",
+                "publicKeyBase58": "2qcH1PD4vJe7dN1z46aZEKKVcj2AEoTQuS6C5ji1PAXj",
+                "type": "Ed25519VerificationKey2018"
+            }
+        ],
+        "authentication": [
+            "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1"
+        ],
+        "keyAgreement": [{
+            "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#comm-1",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
+            "publicKeyBase58": "EHEfL3bpr9T4yVChdqBbajfjcFPyCm2CbpLyJKAFRHfX"
+        }],
+        "service": [{
+            "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#did-communication",
+            "type": "DIDCommMessaging",
+            "serviceEndpoint": "https://alice.aries.example.com:8081"
+        }]
+    }
