@@ -7,8 +7,15 @@
             {
                 "controller": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33",
                 "id": "did:web:51nodes.github.io:web-dids:test:618c95f4-399b-4c77-8cd8-6c6ff120ee33#controller-1",
-                "publicKeyBase58": "2qcH1PD4vJe7dN1z46aZEKKVcj2AEoTQuS6C5ji1PAXj",
-                "type": "Ed25519VerificationKey2018"
+                "type": "Ed25519VerificationKey2019",
+                "publicKeyJwk": {
+                        "alg": "EdDSA",
+                        "crv": "Ed25519",
+                        "kid": "76ae54d869054657bdb160fdf31c5575",
+                        "kty": "OKP",
+                        "use": "sig",
+                        "x": "J9LbY5FT_9tL8WTJcMU3N4dyBlUgVfzTimI6DcvrdVo"
+                      }
             }
         ],
         "authentication": [
@@ -26,3 +33,4 @@
             "serviceEndpoint": "https://alice.aries.example.com:8081"
         }]
     }
+ 
