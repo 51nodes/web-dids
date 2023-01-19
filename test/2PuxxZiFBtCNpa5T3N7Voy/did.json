@@ -1,0 +1,35 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1"
+    ],
+    "id": "did:web:51nodes.github.io:web-dids:test:2PuxxZiFBtCNpa5T3N7Voy",
+    "verificationMethod": [
+      {
+        "id": "did:web:51nodes.github.io:web-dids:test:2PuxxZiFBtCNpa5T3N7Voy#key-1",
+        "type": "Ed25519VerificationKey2018",
+        "controller": "did:web:51nodes.github.io:web-dids:test:2PuxxZiFBtCNpa5T3N7Voy",
+        "publicKeyBase58": "m6psPW3uTecAo73CN8N12ZPuKjANEaexyPnN7iJGqsP"
+      }
+    ],
+    "authentication": [
+      "did:web:51nodes.github.io:web-dids:test:2PuxxZiFBtCNpa5T3N7Voy#key-1"
+    ],
+    "assertionMethod": [
+      "did:web:51nodes.github.io:web-dids:test:2PuxxZiFBtCNpa5T3N7Voy#key-1"
+    ],
+    "service": [
+      {
+        "id": "did:web:51nodes.github.io:web-dids:test:2PuxxZiFBtCNpa5T3N7Voy#did-communication",
+        "type": "did-communication",
+        "serviceEndpoint": "https://cx-dev-acapy.51nodes.io/didcomm/",
+        "recipient_keys": [
+          "did:web:51nodes.github.io:web-dids:test:2PuxxZiFBtCNpa5T3N7Voy#key-1"
+        ],
+        "priority": 1,
+        "routing_keys": [],
+        "accept": [
+          "didcomm/aip2;env=rfc19"
+        ]
+      }
+    ]
+}
