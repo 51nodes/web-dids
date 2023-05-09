@@ -2,16 +2,16 @@
 	"@context": [
 		"https://w3id.org/did/v1"
 	],
-	"id": "did:web:51nodes.github.io:web-dids:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
+	"id": "did:web:51nodes.github.io:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
 	"verificationMethod": [
 		{
-			"controller": "did:web:51nodes.github.io:web-dids:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
-			"id": "did:web:51nodes.github.io:web-dids:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#controller",
+			"controller": "did:web:51nodes.github.io:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
+			"id": "did:web:51nodes.github.io:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#controller",
 			"publicKeyBase58": "AAy46z5VH4MaoorxByaPKT5QiWMWtqUtYbcNRZ83iYou",
 			"type": "Ed25519VerificationKey2018"
 		}
 	],
 	"authentication": [
-		"did:web:51nodes.github.io:web-dids:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#controller"
+		"did:web:51nodes.github.io:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#controller"
 	]
 }
