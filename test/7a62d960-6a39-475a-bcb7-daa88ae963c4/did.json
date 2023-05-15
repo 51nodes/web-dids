@@ -1,17 +1,25 @@
 {
-	"@context": [
-		"https://w3id.org/did/v1"
-	],
-	"id": "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
-	"verificationMethod": [
-		{
-			"controller": "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
-			"id": "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#controller",
-			"publicKeyBase58": "AAy46z5VH4MaoorxByaPKT5QiWMWtqUtYbcNRZ83iYou",
-			"type": "Ed25519VerificationKey2018"
-		}
-	],
-	"authentication": [
-		"did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#controller"
-	]
+    "assertionMethod" : [
+        "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#0e0eb85deb0f403cbecbe98d3fac2ae8"
+    ],
+    "authentication" : [
+        "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#0e0eb85deb0f403cbecbe98d3fac2ae8"
+    ],
+    "@context" : "https://www.w3.org/ns/did/v1",
+    "id" : "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
+    "verificationMethod" : [
+        {
+            "controller" : "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4",
+            "id" : "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:7a62d960-6a39-475a-bcb7-daa88ae963c4#0e0eb85deb0f403cbecbe98d3fac2ae8",
+            "publicKeyJwk" : {
+                "alg" : "EdDSA",
+                "crv" : "Ed25519",
+                "kid" : "0e0eb85deb0f403cbecbe98d3fac2ae8",
+                "kty" : "OKP",
+                "use" : "sig",
+                "x" : "0mLXUMk_P60jp86pQ-m_OcGi_qc3bybIUSVSH0-iioU"
+            },
+            "type" : "Ed25519VerificationKey2019"
+        }
+    ]
 }
