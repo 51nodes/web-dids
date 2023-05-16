@@ -1,0 +1,18 @@
+{
+    "assertionMethod" : [
+        "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:c8824b0d-5d73-4b5f-826d-01edb54925a8#595711eb43e24b4d848748a28131d3d0"
+    ],
+    "authentication" : [
+        "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:c8824b0d-5d73-4b5f-826d-01edb54925a8#595711eb43e24b4d848748a28131d3d0"
+    ],
+    "@context" : "https://www.w3.org/ns/did/v1",
+    "id" : "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:c8824b0d-5d73-4b5f-826d-01edb54925a8",
+    "verificationMethod" : [
+        {
+            "controller" : "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:c8824b0d-5d73-4b5f-826d-01edb54925a8",
+            "id" : "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:c8824b0d-5d73-4b5f-826d-01edb54925a8#595711eb43e24b4d848748a28131d3d0",
+            "publicKeyJwk" :  {"kty":"OKP","use":"sig","crv":"Ed25519","kid":"595711eb43e24b4d848748a28131d3d0","x":"KxK9zWF29mTqacf7hWEBmxc3GHzWY4eyWrYxXjZ09CA","alg":"EdDSA"},
+            "type" : "Ed25519VerificationKey2019"
+        }
+    ]
+}
