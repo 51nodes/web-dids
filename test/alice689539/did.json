@@ -1,0 +1,25 @@
+{
+    "assertionMethod": [
+        "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:alice689539#586e40fac2c84520afb1de1b5d419c34"
+    ],
+    "authentication": [
+        "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:alice689539#586e40fac2c84520afb1de1b5d419c34"
+    ],
+    "@context": "https://www.w3.org/ns/did/v1",
+    "id": "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:alice689539",
+    "verificationMethod": [
+        {
+            "controller": "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:alice689539",
+            "id": "did:web:raw.githubusercontent.com:51nodes:web-dids:main:test:alice689539#586e40fac2c84520afb1de1b5d419c34",
+            "publicKeyJwk": {
+                "alg": "EdDSA",
+                "crv": "Ed25519",
+                "kid": "586e40fac2c84520afb1de1b5d419c34",
+                "kty": "OKP",
+                "use": "sig",
+                "x": "AuM5kyqF7Ef5fnZYMyZlZK_2ZuAId6YHHwO8R5ZSkkM"
+            },
+            "type": "Ed25519VerificationKey2019"
+        }
+    ]
+}
